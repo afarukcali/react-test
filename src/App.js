@@ -69,7 +69,6 @@ function App() {
     <div className="ui fluid container-full trp-header">
       <img className="trp-logo" src="logo.png" />
     </div>
-
     <div className="ui fluid container-full trp-content">
       <div className="ui fluid container-full trp-content-half">
         <div className="ui fluid container-full trp-content-1">
@@ -81,19 +80,13 @@ function App() {
             <img src="logo512.png" className="ui mini image trp-logo-pin" />
             Attractions
           </h2>
-
           <div className="trp-row">
-
             <div id="trp-slider-1" className="trp-row-content">
-
-              <div className="trp-column">
                   <CardList cardData={attractions}></CardList>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
       <div className="ui fluid container-full trp-content-half">
         <div className="ui fluid container-full trp-content-2">
           <i id="restaurant-next" onClick={nextRestaurant}
@@ -106,13 +99,9 @@ function App() {
           </h2>
           <div className="trp-row">
             <div id="trp-slider-2" className="trp-row-content">
-
-            <div className="trp-column">
                   <CardList cardData={restaurants}></CardList>
             </div>
-            </div>
           </div>
-
         </div>
       </div>
     </div>

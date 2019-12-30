@@ -1,5 +1,6 @@
 export const attractions  = 
 [{
+    poiId: 1,
     srcs: [
       'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/40/290149/e3d58798756c75def0406020e3f5b11c.jpg',
       'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/550142/0ebacfd76a9aca41faef2edc0e2abd5b.jpg',
@@ -12,6 +13,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:2,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/550142/0ebacfd76a9aca41faef2edc0e2abd5b.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/40/288618/b87c30b4469413c4ccfb4dc4a0d9b71e.jpg',
@@ -24,6 +26,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:3,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/548926/1b7d8187ddc65976b2af37c25eea8c58.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/553887/e4e4ab5cff82429334907dc4111ff289.jpg',
@@ -36,6 +39,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:4,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/551535/95c75dc6dfc7fc9fd785e78b604224a0.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/552931/c2fc7b4e262671282d734701a2d0db7c.jpg',
@@ -48,6 +52,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:5,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/548480/04d02f090619b8c582ecd5e6b21c3cca.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/547790/c568b9930e5214481dd9667e938ec6b3.jpg',
@@ -60,6 +65,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:6,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553887/e4e4ab5cff82429334907dc4111ff289.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/551781/65e65cbf185aeedbb6d1a19029eb7dfa.jpg',
@@ -72,6 +78,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:7,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/40/290149/e3d58798756c75def0406020e3f5b11c.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/550142/0ebacfd76a9aca41faef2edc0e2abd5b.jpg',
@@ -84,6 +91,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:8,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/548926/1b7d8187ddc65976b2af37c25eea8c58.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/553887/e4e4ab5cff82429334907dc4111ff289.jpg',
@@ -96,6 +104,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:9,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/550142/0ebacfd76a9aca41faef2edc0e2abd5b.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/40/288618/b87c30b4469413c4ccfb4dc4a0d9b71e.jpg',
@@ -110,6 +119,7 @@ export const attractions  =
   
   export const restaurants = [
   {
+    poiId:1,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553395/5b5662b14eecf2443ddd0efd151c78c4.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/550707/a90befc64b83865bc038ededcc9d5b6c.jpg',
@@ -122,6 +132,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:2,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553710/e092bd2f2f43883b0b6c919e8385b1ed.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/547288/de01936a1a57b42c03269e2646574327.jpg',
@@ -134,6 +145,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:3,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553554/32341563c7b135771a91bd379d95b653.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/558660/565f09a75934a8e291907d29fc257399.jpg',
@@ -146,6 +158,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:4,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/547288/de01936a1a57b42c03269e2646574327.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/553312/188facfa2e3bc96a17c81aeeecdb7784.jpg',
@@ -158,6 +171,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:5,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/555048/c178c2f8f109c7aeba7854adbc977b71.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/553683/46d5b41f07cb3a7ec5a24d970229bf81.jpg',
@@ -170,6 +184,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:6,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/554715/622c71b223fc2a0442a45f28c59d3676.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/550260/192612f889a0ef16a1984c00236ab74f.jpg',
@@ -182,6 +197,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:7,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553395/5b5662b14eecf2443ddd0efd151c78c4.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/550707/a90befc64b83865bc038ededcc9d5b6c.jpg',
@@ -194,6 +210,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:8,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553710/e092bd2f2f43883b0b6c919e8385b1ed.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/547288/de01936a1a57b42c03269e2646574327.jpg',
@@ -206,6 +223,7 @@ export const attractions  =
     desc: 'The Musée de la Chasse et de la Nature is a private museum of hunting and nature located ..',
   },
   {
+    poiId:9,
     srcs: [
     'https://d1drj6u6cu0e3j.cloudfront.net/155x250/smart/Place/108/553554/32341563c7b135771a91bd379d95b653.jpg',
     'https://d1drj6u6cu0e3j.cloudfront.net/76x123/smart/Place/108/558660/565f09a75934a8e291907d29fc257399.jpg',
