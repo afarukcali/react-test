@@ -1,0 +1,369 @@
+html,
+body,
+.root {
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #484848;
+  background-color: white; /* bisque */ /*  #252839; */
+  /*
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  */
+}
+
+.ui.fluid.container {
+  width: 100% !important;
+}
+
+.ui.header {
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+}
+
+.trp-header {
+  height: 80px;
+  /* background-color:cadetblue; */
+  color: rgb(72, 72, 72) !important;
+  border-bottom: 1px solid rgb(228, 228, 228) !important;
+
+  -webkit-box-shadow: 0 0 32px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: 0 0px 32px 0 rgba(34, 36, 38, 0.15);
+  position: relative;
+}
+
+.trp-sub-header {
+  height: 48px;
+  /* background-color:darkgray;
+	color: rgb(72, 72, 72) !important;
+	border-bottom: 1px solid rgb(228, 228, 228) !important;  */
+}
+
+.trp-logo {
+  margin-left: 5%;
+  height: 33%;
+  position: absolute;
+  top: 34%;
+}
+
+.trp-sub-header-title {
+  color: rgb(236, 98, 106, 0.83) !important;
+  padding-top: 13px !important;
+  padding-left: 5% !important;
+  padding-bottom: 0px;
+  margin-bottom: 9px !important;
+}
+
+.trp-sub-header-divider {
+  /* border-bottom: 1px solid rgb(236, 98, 106, 0.83) !important; */
+  border-bottom: 1px solid rgb(228, 228, 228) !important;
+  margin-left: 92px;
+  margin-right: 92px;
+}
+
+.trp-row {
+  height: 440px;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin-left: -8px;
+  position: relative;
+}
+
+.trp-row-content {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  transition-property: left;
+  transition-duration: 0.5s;
+  z-index: 0;
+}
+
+.trp-column {
+  width: 235px;
+  display: inline-block;
+  margin-right: 50px;
+  /* margin-left: 1%; */
+  padding-left: 8px;
+}
+
+.trp-logo-pin {
+  padding-bottom: 6px;
+  margin-right: -3px !important;
+  padding-right: 4px;
+}
+
+.trp-content {
+  height: calc(100% - 128px);
+  height: -moz-calc(100% - 128px);
+  height: -webkit-calc(100% - 128px);
+  /* background-color: bisque; */
+  padding-left: 5%;
+  margin-left: -10px;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 4%;
+}
+
+.trp-content-half {
+  padding-top: 2%;
+  /*width: 100%;
+  height: 50%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 15px;
+  */
+  padding-left: 10px;
+}
+
+.trp-content-half-cancel {
+  width: 100%;
+  height: 50%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.trp-content-1 {
+  height: 100%;
+  /* background-color: coral; */
+  position: relative;
+}
+
+.trp-content-2 {
+  height: 100%;
+  /* background-color:darkkhaki; */
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.trp-grid {
+  height: 100%;
+}
+
+.trp-card-ex {
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.trp-card {
+  /* height: 380px; */
+  height: 400px;
+  width: 235px;
+  border: 0px solid darkgray;
+  border-radius: 14px;
+  /* margin-bottom: 100px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  overflow: hidden !important;
+  position: relative;
+}
+
+.trp-card-images-row {
+  height: 250px;
+  width: 235px;
+  cursor: pointer;
+}
+
+.trp-card-div-image-1 {
+  height: 250px;
+  width: 155px;
+  float: left;
+}
+
+.trp-card-images-column {
+  height: 250px;
+  width: 80px;
+  float: left;
+  padding-left: 4px;
+}
+
+.trp-card-div-image-2,
+.trp-card-div-image-3 {
+  height: 123px;
+  width: 76px;
+  float: left;
+}
+
+.trp-card-div-image-3 {
+  margin-top: 4px;
+}
+
+.trp-card-div-text {
+  height: 130px;
+  width: 235px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.28571em !important;
+  color: rgb(72, 72, 72) !important;
+  text-overflow: ellipsis !important;
+  /* padding: 15px; */
+  padding: 7px 10px;
+  text-align: left;
+  white-space: normal;
+}
+
+.trp-card-div-text h4 {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  color: rgb(72, 72, 72) !important;
+}
+
+.trp-image-covered {
+  height: 100% !important;
+  width: 100% !important;
+  position: static !important;
+  object-fit: cover !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+
+.checked {
+  color: orange;
+}
+
+.trp-poi-title {
+  margin: 0 !important;
+}
+
+.trp-poi-type {
+  margin: 2px 0px 5px 0px !important;
+  font-size: 12px !important;
+  color: #888888 !important;
+}
+
+.trp-poi-desc {
+  line-height: 12px;
+  font-size: smaller;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.trp-thumbs-buttons {
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.trp-poi-review {
+  margin-left: 2px;
+  font-size: 12px !important;
+  color: #555 !important;
+  font-family: sans-serif;
+}
+
+/*    //////////////////////////////////////////////////////////    */
+
+#attraction-prev {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: -28px;
+  z-index: 1000;
+  display: none;
+  transform: translateY(-50%) !important;
+}
+
+#attraction-next {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: -28px;
+  z-index: 1000;
+  transform: translateY(-50%) !important;
+}
+
+#restaurant-prev {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: -28px;
+  z-index: 1000;
+  display: none;
+  transform: translateY(-50%) !important;
+}
+
+#restaurant-next {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: -28px;
+  z-index: 1000;
+  transform: translateY(-50%) !important;
+}
+
+/*** Match   ***/
+.trp-match {
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  background-color: #2da52deb;
+  color: white;
+  font-size: 12px;
+  padding: 4px 6px 4px 6px;
+  border-radius: 0px 10px 10px 0px !important;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+}
+
+/** ITINERARY Button **/
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #itinerary-button {
+    position: fixed !important;
+    bottom: 20px;
+  }
+
+  .trp-row {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .trp-row-content {
+    position: inherit !important;
+  }
+
+  #attraction-next {
+    display: none !important;
+  }
+  #attraction-prev {
+    display: none !important;
+  }
+  #restaurant-next {
+    display: none !important;
+  }
+  #restaurant-prev {
+    display: none !important;
+  }
+
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .trp-sub-header-title {
+    display: block !important;
+    margin: auto !important;
+  }
+}
