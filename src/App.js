@@ -3,8 +3,9 @@ import CardList from './CardList'
 import './trp.css';
 import {attractions,restaurants} from './Actions';
 
-var sliderPos = 0;
-var slideOffset = 289;
+function App() {
+  let sliderPos = 0;
+  let slideOffset = 289;
 
   function next(){
     if (sliderPos === attractions.length - 1) return;
@@ -32,7 +33,7 @@ var slideOffset = 289;
       if (sliderPos === 0)
         document.getElementById("attraction-prev").style.display = "none";
     } 
- }
+  }
 
   function nextRestaurant(){
     if (sliderPos === restaurants.length - 1) return;
@@ -60,10 +61,8 @@ var slideOffset = 289;
       if (sliderPos === 0)
         document.getElementById("restaurant-prev").style.display = "none";
     }
-};
+  };
 
-function App() {
-  
   return (
     <div className="ui fluid trp-container-full">
     <div className="ui fluid container-full trp-header">

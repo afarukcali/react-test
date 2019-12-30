@@ -18,8 +18,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "@tripian/eslint-config-tripian"
   },
+  "prettier": "@tripian/eslint-config-tripian/prettier.js",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,6 +34,18 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^3.4.0"
+    "@tripian/eslint-config-tripian": "^0.3.0",
+    "css-loader": "^3.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^24.9.0",
+    "prettier": "1.18.2"
   }
 }
